@@ -7,8 +7,111 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": null,
+      "services": [
+        {
+          "name": "vinicius pereira",
+          "cost": "100",
+          "description": "faz isso",
+          "id": "72f74937-c68c-4884-80d2-2bc5608a3480"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "1005",
+          "description": "faz isso",
+          "id": "6da534fa-2a94-46a4-b00e-869c318336b6"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "1005",
+          "description": "faz isso",
+          "id": "6da534fa-2a94-46a4-b00e-869c318336b6"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "1005",
+          "description": "faz isso",
+          "id": "6da534fa-2a94-46a4-b00e-869c318336b6"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "1005",
+          "description": "faz isso",
+          "id": "6da534fa-2a94-46a4-b00e-869c318336b6"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "1005",
+          "description": "faz isso",
+          "id": "6da534fa-2a94-46a4-b00e-869c318336b6"
+        },
+        {
+          "id": "ff6aacd2-8894-4ad2-a7d0-1df4f4a2f84a"
+        },
+        {
+          "id": "ff6aacd2-8894-4ad2-a7d0-1df4f4a2f84a"
+        },
+        {
+          "id": "988ba186-9758-47b7-96cf-dce49648674e",
+          "name": "77777",
+          "cost": "88888888888",
+          "description": "faz isso"
+        },
+        {
+          "id": "988ba186-9758-47b7-96cf-dce49648674e",
+          "name": "77777",
+          "cost": "88888888888",
+          "description": "faz isso"
+        },
+        {
+          "id": "988ba186-9758-47b7-96cf-dce49648674e",
+          "name": "77777",
+          "cost": "88888888888",
+          "description": "faz isso"
+        },
+        {
+          "id": "988ba186-9758-47b7-96cf-dce49648674e",
+          "name": "77777",
+          "cost": "88888888888",
+          "description": "faz isso"
+        },
+        {
+          "id": "988ba186-9758-47b7-96cf-dce49648674e",
+          "name": "77777",
+          "cost": "88888888888",
+          "description": "faz isso"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "999999",
+          "description": "faz isso",
+          "id": "af6c4925-f81e-40f7-b27e-5977e035ab5c"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "999999",
+          "description": "faz isso",
+          "id": "af6c4925-f81e-40f7-b27e-5977e035ab5c"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "999999",
+          "description": "faz isso",
+          "id": "af6c4925-f81e-40f7-b27e-5977e035ab5c"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "999999",
+          "description": "faz isso",
+          "id": "af6c4925-f81e-40f7-b27e-5977e035ab5c"
+        },
+        {
+          "name": "vinicius pereira",
+          "cost": "999999",
+          "description": "faz isso",
+          "id": "af6c4925-f81e-40f7-b27e-5977e035ab5c"
+        }
+      ],
       "id": "i0Rr8EAmkq0"
     },
     {

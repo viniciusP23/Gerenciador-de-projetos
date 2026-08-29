@@ -4,7 +4,8 @@ import styles from "../project/ProjectCard.module.css"
 function ServiceCard({id, name, cost, description, handleRemove}) {
 
     const remove = (e) => {
-
+        e.preventDefault()
+        handleRemove(id, cost)
     }
 
     return (
@@ -12,7 +13,7 @@ function ServiceCard({id, name, cost, description, handleRemove}) {
             <h4>{name}</h4>
 
             <p>
-                <sapn>Custo total:</sapn> R${cost}
+                <span>Custo total:</span> R${cost}
             </p>
             <p>{description}</p>
             <div className={styles.project_card_actions}>
@@ -25,4 +26,4 @@ function ServiceCard({id, name, cost, description, handleRemove}) {
     )
 }
 
-export default ServiceCard()
+export default ServiceCard

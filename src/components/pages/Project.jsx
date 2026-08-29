@@ -100,9 +100,35 @@ function Project() {
 
     }
 
-    function removeService() {
+    function removeService(id, cost) {
 
+    const servicesUpdate = project.services.filter(
+        (service) => service.id !== id
+    )
+
+    const projectUpdate = {
+        ...project,
+        services: servicesUpdate,
+        cost: parseFloat(project.cost) - parseFloat(cost)
     }
+
+    fetch(`http://localhost:5000/projects/${projectUpdate.id}`, {
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(projectUpdate)
+    })
+        .then((res) => res.json())
+        .then((data) => {
+            setProject(data)
+            setServices(data.services)
+
+            setMassage("Serviço removido com sucesso!")
+            setType("success")
+        })
+        .catch((err) => console.log(err))
+}
 
     function toggleProjectForm() {
         setShowProjectForm(!showProjectForm)
@@ -164,7 +190,7 @@ function Project() {
                                 id={service.id}
                                 name={service.name}
                                 cost={service.cost}
-                                key={service.id}
+                                description={service.description}
                                 handleRemove={removeService}
                             />
                         ))
